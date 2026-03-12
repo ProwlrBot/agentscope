@@ -137,7 +137,7 @@ class ReMeShortTermMemory(InMemoryMemory):
             raise ImportError(
                 "The 'reme_ai' library is required for ReMe-based "
                 "short-term memory. Please try `pip install reme-ai`,"
-                "and visit: https://github.com/agentscope-ai/ReMe for more "
+                "and visit: https://github.com/ProwlrBot/ReMe for more "
                 "information.",
             ) from e
 

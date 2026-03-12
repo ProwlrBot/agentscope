@@ -183,17 +183,17 @@ print(f"Judge reward: {judge_output.reward}")
 # The judge function can also be locally tested in the same way as shown above before formal training to ensure its logic is correct.
 #
 # .. tip::
-#    You can leverage existing `MetricBase <https://github.com/agentscope-ai/agentscope/blob/main/src/agentscope/evaluate/_metric_base.py>`_ implementations in your judge function to compute more sophisticated metrics and combine them into a composite reward.
+#    You can leverage existing `MetricBase <https://github.com/ProwlrBot/agentscope/blob/main/src/agentscope/evaluate/_metric_base.py>`_ implementations in your judge function to compute more sophisticated metrics and combine them into a composite reward.
 #
 # Configuration and Running
 # ~~~~~~~~~~~~~~~
 # Finally, you can configure and run the tuning process using the ``tuner`` module.
-# Before starting, ensure that `Trinity-RFT <https://github.com/agentscope-ai/Trinity-RFT>`_ is installed in your environment, as it is required for tuning.
+# Before starting, ensure that `Trinity-RFT <https://github.com/ProwlrBot/Trinity-RFT>`_ is installed in your environment, as it is required for tuning.
 #
 # Below is an example of configuring and starting the tuning process:
 #
 # .. note::
-#    This example is for demonstration only. For a complete runnable example, see `Tune ReActAgent <https://github.com/agentscope-ai/agentscope/tree/main/examples/tuner/react_agent>`_
+#    This example is for demonstration only. For a complete runnable example, see `Tune ReActAgent <https://github.com/ProwlrBot/agentscope/tree/main/examples/tuner/react_agent>`_
 #
 # .. code-block:: python
 #
@@ -220,9 +220,9 @@ print(f"Judge reward: {judge_output.reward}")
 # Here, ``DatasetConfig`` configures the training dataset, ``TunerModelConfig`` sets the parameters for the trainable model, and ``AlgorithmConfig`` specifies the reinforcement learning algorithm and its hyperparameters.
 #
 # .. tip::
-#    The ``tune`` function is based on `Trinity-RFT <https://github.com/agentscope-ai/Trinity-RFT>`_ and internally converts input parameters to a YAML configuration.
+#    The ``tune`` function is based on `Trinity-RFT <https://github.com/ProwlrBot/Trinity-RFT>`_ and internally converts input parameters to a YAML configuration.
 #    Advanced users can skip the ``model``, ``train_dataset``, and ``algorithm`` arguments and instead provide a YAML config file path via the ``config_path`` argument.
-#    Using a configuration file is recommended for fine-grained control and to leverage advanced Trinity-RFT features. See the Trinity-RFT `Configuration Guide <https://agentscope-ai.github.io/Trinity-RFT/en/main/tutorial/trinity_configs.html>`_ for more options.
+#    Using a configuration file is recommended for fine-grained control and to leverage advanced Trinity-RFT features. See the Trinity-RFT `Configuration Guide <https://ProwlrBot.github.io/Trinity-RFT/en/main/tutorial/trinity_configs.html>`_ for more options.
 #
 # Save the above code as ``main.py`` and run it with:
 #
@@ -244,4 +244,4 @@ print(f"Judge reward: {judge_output.reward}")
 #                        └── global_step_x/    # saved model checkpoints at step x
 #
 # .. tip::
-#    For more tuning examples, refer to the `tuner directory <https://github.com/agentscope-ai/agentscope-samples/tree/main/tuner>`_ of the AgentScope-Samples repository.
+#    For more tuning examples, refer to the `tuner directory <https://github.com/ProwlrBot/agentscope-samples/tree/main/tuner>`_ of the AgentScope-Samples repository.

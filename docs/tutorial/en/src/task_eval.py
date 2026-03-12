@@ -43,7 +43,7 @@ The current implementation in AgentScope includes:
 - Benchmark:
     - ``ACEBench``: A benchmark for evaluating agent capabilities.
 
-We have provided a toy example in our `GitHub repository <https://github.com/agentscope-ai/agentscope/tree/main/examples/evaluation/ace_bench>`_ with ``RayEvaluator`` and the agent multistep tasks in ACEBench.
+We have provided a toy example in our `GitHub repository <https://github.com/ProwlrBot/agentscope/tree/main/examples/evaluation/ace_bench>`_ with ``RayEvaluator`` and the agent multistep tasks in ACEBench.
 
 Core Components
 ---------------

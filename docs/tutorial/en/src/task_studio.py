@@ -78,7 +78,7 @@ Friday is an experimental local-deployed agent built by AgentScope, aims at
 - integrating all available features in AgentScope to build a more powerful agent, and
 - testing and integrating the advanced features in AgentScope.
 
-.. note:: We highly greet contributions from the community to improve Friday! Feel free to open issues or pull requests on our `GitHub repository <https://github.com/agentscope-ai/agentscope>`_.
+.. note:: We highly greet contributions from the community to improve Friday! Feel free to open issues or pull requests on our `GitHub repository <https://github.com/ProwlrBot/agentscope>`_.
 
 We are keeping improving Friday, and currently it integrates the following features in AgentScope:
 

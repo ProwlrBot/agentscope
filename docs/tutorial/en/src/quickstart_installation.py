@@ -20,7 +20,7 @@ GitHub and install by the following commands
 
 .. code-block:: bash
 
-    git clone -b main https://github.com/agentscope-ai/agentscope
+    git clone -b main https://github.com/ProwlrBot/agentscope
     cd agentscope
     pip install -e .
 

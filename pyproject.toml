@@ -171,9 +171,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/agentscope-ai/agentscope"
+Homepage = "https://github.com/ProwlrBot/agentscope"
 Documentation = "https://doc.agentscope.io/"
-Repository = "https://github.com/agentscope-ai/agentscope"
+Repository = "https://github.com/ProwlrBot/agentscope"
 
 [tool.setuptools]
 packages = { find = { where = ["src"] } }

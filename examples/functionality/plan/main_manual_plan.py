@@ -35,7 +35,7 @@ async def main() -> None:
             SubTask(
                 name="Clone the repository",
                 description="Clone the AgentScope GitHub repository from "
-                "agentscope-ai/agentscope, and ensure it's the "
+                "ProwlrBot/agentscope, and ensure it's the "
                 "latest version.",
                 expected_outcome="A local copy of the AgentScope repository.",
             ),

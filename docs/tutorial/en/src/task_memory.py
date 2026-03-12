@@ -39,7 +39,7 @@ Currently, AgentScope provides the following memory storage implementations:
       - A Redis-based implementation of memory storage.
 
 .. tip:: If you're interested in contributing new memory storage implementations, please refer to the
- `Contribution Guide <https://github.com/agentscope-ai/agentscope/blob/main/CONTRIBUTING.md#types-of-contributions>`_.
+ `Contribution Guide <https://github.com/ProwlrBot/agentscope/blob/main/CONTRIBUTING.md#types-of-contributions>`_.
 
 All the above memory classes inherit from the base class ``MemoryBase``, and
 provide the following methods to manage the messages in the memory:

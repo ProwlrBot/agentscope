@@ -3,7 +3,7 @@
 Evaluation with OpenJudge
 =========================
 
-This guide introduces how to use [OpenJudge](https://github.com/agentscope-ai/OpenJudge) graders as AgentScope metrics to evaluate your multi-agent applications.
+This guide introduces how to use [OpenJudge](https://github.com/ProwlrBot/OpenJudge) graders as AgentScope metrics to evaluate your multi-agent applications.
 OpenJudge is a comprehensive evaluation system designed to assess the quality of LLM applications. By integrating OpenJudge into AgentScope, you can extend AgentScope's native evaluation capabilities from basic execution checks to deep, semantic quality analysis.
 
 
@@ -23,7 +23,7 @@ significant effort in prompt engineering and pipeline construction.
 Integrating OpenJudge brings three dimensions of capability extension to AgentScope:
 
 1.  **Enhance Evaluation Depth:**: Move beyond simple success/failure checks to multi-dimensional assessments (Accuracy, Safety, Tone, etc.).
-2.  **Leverage Verified Graders**: Instantly access 50+ pre-built, expert-level graders without writing custom evaluation prompts, see the [OpenJudge documentation](https://agentscope-ai.github.io/OpenJudge/built_in_graders/overview/) for details.
+2.  **Leverage Verified Graders**: Instantly access 50+ pre-built, expert-level graders without writing custom evaluation prompts, see the [OpenJudge documentation](https://ProwlrBot.github.io/OpenJudge/built_in_graders/overview/) for details.
 3.  **Closed-loop Iteration**: Seamlessly embed OpenJudge into AgentScope's `Benchmark`, obtaining quantitative scores and qualitative reasoning.
 
 
@@ -186,7 +186,7 @@ class OpenJudgeMetric(MetricBase):
 #
 # .. tip::
 #    OpenJudge offers 50+ built-in graders covering diverse dimensions like **Hallucination**, **Safety**, **Code Quality**,
-#    and **JSON Formatting**. Please refer to the `OpenJudge Documentation <https://agentscope-ai.github.io/OpenJudge/built_in_graders/overview/>`_
+#    and **JSON Formatting**. Please refer to the `OpenJudge Documentation <https://ProwlrBot.github.io/OpenJudge/built_in_graders/overview/>`_
 #    for the full list of available graders.
 #
 # .. note::

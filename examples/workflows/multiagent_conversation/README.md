@@ -5,7 +5,7 @@ where multiple agents broadcast messages to each other in a shared conversation 
 
 ## Setup
 
-The example is built upon the DashScope LLM API in [main.py](https://github.com/agentscope-ai/agentscope/blob/main/examples/workflows/multiagent_conversation/main.py). You can switch to other LLMs by modifying the ``model`` and ``formatter`` parameters in the code.
+The example is built upon the DashScope LLM API in [main.py](https://github.com/ProwlrBot/agentscope/blob/main/examples/workflows/multiagent_conversation/main.py). You can switch to other LLMs by modifying the ``model`` and ``formatter`` parameters in the code.
 
 To run the example, first install the latest version of AgentScope, then run:
 

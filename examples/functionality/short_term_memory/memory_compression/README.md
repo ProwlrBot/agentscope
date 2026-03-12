@@ -313,5 +313,5 @@ The `_memory_storage.py` module provides:
 
 ## Reference
 
-- [AgentScope Documentation](https://github.com/agentscope-ai/agentscope)
+- [AgentScope Documentation](https://github.com/ProwlrBot/agentscope)
 - [Pydantic Documentation](https://docs.pydantic.dev/)

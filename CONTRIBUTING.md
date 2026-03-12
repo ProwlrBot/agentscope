@@ -14,7 +14,7 @@ To ensure smooth collaboration and maintain the quality of the project, please f
 
 Before starting your contribution, please review our development roadmap:
 
-- **Check the [Projects](https://github.com/orgs/agentscope-ai/projects/2) page** and **[Issues with `roadmap` label](https://github.com/agentscope-ai/agentscope/issues?q=is%3Aissue%20state%3Aopen%20label%3ARoadmap)** to see our planned development tasks.
+- **Check the [Projects](https://github.com/orgs/ProwlrBot/projects/2) page** and **[Issues with `roadmap` label](https://github.com/ProwlrBot/agentscope/issues?q=is%3Aissue%20state%3Aopen%20label%3ARoadmap)** to see our planned development tasks.
 
   - **If a related issue exists** and is marked as unassigned or open:
     - Please comment on the issue to express your interest in working on it
@@ -236,7 +236,7 @@ To maintain code quality and keep the repository accessible for everyone, we've 
 
 Have you built something amazing with AgentScope? Perhaps a more sophisticated, production-ready application? That's fantastic! 🎉
 
-We'd love to see your work in our **[agentscope-samples](https://github.com/agentscope-ai/agentscope-samples)** repository. This dedicated space is perfect for showcasing complete, real-world applications and sharing your AgentScope-based projects with the community. It's a great way to inspire others and demonstrate the full potential of the AgentScope ecosystem!
+We'd love to see your work in our **[agentscope-samples](https://github.com/ProwlrBot/agentscope-samples)** repository. This dedicated space is perfect for showcasing complete, real-world applications and sharing your AgentScope-based projects with the community. It's a great way to inspire others and demonstrate the full potential of the AgentScope ecosystem!
 
 **Example Organization:**
 
@@ -312,8 +312,8 @@ If you need support for a specific relational database, please ensure it works t
 
 If you need assistance or have questions:
 
-- 💬 Open a [Discussion](https://github.com/agentscope-ai/agentscope/discussions)
-- 🐛 Report bugs via [Issues](https://github.com/agentscope-ai/agentscope/issues)
+- 💬 Open a [Discussion](https://github.com/ProwlrBot/agentscope/discussions)
+- 🐛 Report bugs via [Issues](https://github.com/ProwlrBot/agentscope/issues)
 - 📧 Contact the maintainers at DingTalk or Discord (links in the README.md)
 
 

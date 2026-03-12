@@ -9,7 +9,7 @@ At each round a moderator agent will decide whether the correct answer can be ob
 
 ## Setup
 
-The example is built upon DashScope LLM API in [main.py](https://github.com/agentscope-ai/agentscope/blob/main/examples/workflows/multiagent_debate/main.py).
+The example is built upon DashScope LLM API in [main.py](https://github.com/ProwlrBot/agentscope/blob/main/examples/workflows/multiagent_debate/main.py).
 You can also change to the other LLMs by modifying the ``model`` and ``formatter`` parameters in the code.
 
 To run the example, first install the latest version of AgentScope, then run:

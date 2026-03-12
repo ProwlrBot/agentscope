@@ -456,7 +456,7 @@ short_term_memory = ReMeShortTermMemory(
 )
 ```
 
-For more configuration options, refer to the [ReMe documentation](https://github.com/agentscope-ai/ReMe).
+For more configuration options, refer to the [ReMe documentation](https://github.com/ProwlrBot/ReMe).
 
 ## What's in the Example
 
