@@ -387,7 +387,7 @@ asyncio.run(redis_memory_example())
 #     @app.post("/chat_endpoint")
 #     async def chat_endpoint(
 #         user_id: str, session_id: str, input: str
-#     ):  # ✅ 直接使用BaseModel
+#     ):  # ✅ Use BaseModel directly
 #         """A chat endpoint"""
 #         global redis_pool
 #         if redis_pool is None:

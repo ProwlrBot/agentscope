@@ -303,7 +303,7 @@ f.close()
 memories = [
     {
         "role": "user",
-        "content": "搜索下项目资料",
+        "content": "Search the project documents",
     },
     {
         "role": "assistant",
@@ -336,8 +336,8 @@ agent = ReActAgent(
     name="react",
     sys_prompt=(
         "You are a helpful assistant. "
-        "工具调用的调用可能会被缓存到本地。"
-        "可以先使用`Grep`匹配关键词或者正则表达式所在行数，然后通过`ReadFile`读取位置附近的代码。"
+        "Tool call results may be cached locally. "
+        "You can first use `Grep` to match keywords or regex patterns to find line numbers, then use `ReadFile` to read code near those locations."
         # ... more instructions
     ),
     model=llm,
@@ -359,7 +359,7 @@ The agent is configured with:
 ```python
 msg = Msg(
     role="user",
-    content=("项目资料中，agentscope_v1论文的一作是谁？"),
+    content=("In the project documents, who is the first author of the agentscope_v1 paper?"),
     name="user",
 )
 msg = await agent(msg)

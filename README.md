@@ -8,7 +8,7 @@
 
 <span align="center">
 
-[**中文主页**](https://github.com/ProwlrBot/agentscope/blob/main/README_zh.md) | [**Tutorial**](https://doc.agentscope.io/) | [**Roadmap (Jan 2026 -)**](https://github.com/ProwlrBot/agentscope/blob/main/docs/roadmap.md) | [**FAQ**](https://doc.agentscope.io/tutorial/faq.html)
+[**Chinese Homepage**](https://github.com/ProwlrBot/agentscope/blob/main/README_zh.md) | [**Tutorial**](https://doc.agentscope.io/) | [**Roadmap (Jan 2026 -)**](https://github.com/ProwlrBot/agentscope/blob/main/docs/roadmap.md) | [**FAQ**](https://doc.agentscope.io/tutorial/faq.html)
 
 </span>
 
